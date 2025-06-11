@@ -14,7 +14,9 @@ print(type(10))
 print(type(9.8))
 print(type(3.14))
 print(type(4-4j))
-print(type['Asabeneh','Phyton','Finland'])
+print(type('Asabeneh','Phyton','Finland'))
 print(type("José Luis Rangel Zayas"))
 print(type("Rangel Zayas"))
 print(type("México"))
+
+
