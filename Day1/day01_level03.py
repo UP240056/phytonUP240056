@@ -14,7 +14,7 @@ tupla = (4, 5, 6, "x", "y")          # Tupla
 
 conjunto = {1, 2, 3, 3, 4}           # Conjunto
 
-diccionario = {"nombre": "Osiel", "edad": 19}      # Diccionario
+diccionario = {"nombre": "José Luis", "edad": 18}      # Diccionario
 
 
 # Problema
@@ -23,5 +23,5 @@ diccionario = {"nombre": "Osiel", "edad": 19}      # Diccionario
 point_1 = (2, 3)
 point_2 = (10, 8)
 
-distance = ((point_2[0] - point_1[0])**2 + (point_2[1] - point_1[1])**2)
+distance = ((point_2[0] - point_1[0])**2 + (point_2[1] - point_1[1])**2)      #Ecuación
 print("Distancia entre puntos (2, 3) y (10, 8): ", distance)
