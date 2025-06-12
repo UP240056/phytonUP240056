@@ -9,12 +9,14 @@ altura = float(input())
 x = (3j)
 
 print()
+print("[CALCULADORA DE ÁREA DE UN TRIÁNGULO]")
 base = float(input("¿Cual es la base? "))
 altura = float(input("Cual es la altura? "))
 result = (base*altura)/2
 print("El area del triangulo es ", result)
 
 print()
+print("[CALCULADORA DE PERÍMETRO DE UN TRIÁNGULO]")
 a = float(input("¿cuanto mide el lado a?  "))
 b = float(input("¿cuanto mide el lado b?  "))
 c = float(input("¿cuanto mide el lado c?  "))
@@ -23,9 +25,10 @@ print("El perimetro del triangulo es ")
 print(resul2)
 
 print()
-r = float(input("¿Cual es el radio?"))
+print("[CALCULADORA DE CIRCUNFERENCIA]")
+r = float((input("¿Cual es el radio?")))
 pi = 3.1416
-area = pi(r*2)
+area = pi*r**2
 circ = 2*pi*r
 print("Su area es :", area,",", "Su circunferencia es :", circ)
 
@@ -33,6 +36,7 @@ print("Su area es :", area,",", "Su circunferencia es :", circ)
 # Ej. 8-10
 
 
+print()
 print("\n Pendiente e intersecciones de y = 2x - 2")
 m = 2
 b = -2
@@ -42,10 +46,11 @@ print(f"Intersección con Y (b): {b} → Punto (0, {b})")
 print(f"Intersección con X: y=0 → x={x_intercepcion} → Punto ({x_intercepcion}, 0)")
 
 print("\nPendiente y distancia entre (2,2) y (6,10)")
-x1, y1 = 2, 2
+x1 = 2
+y1 = 2
 x2, y2 = 6, 10
 pendiente = (y2 - y1) / (x2 - x1)
-distancia = (x2 - x1) + (y2 - y1) # error en esta línea, código a preguntar en mi celular
+distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 print(f"Pendiente: {pendiente}")
 print(f"Distancia euclidiana: {distancia: .3f}")
 
@@ -68,7 +73,7 @@ raiz = encontrar_raiz()
 print(f"Cuando y=0, x={raiz}")
 
 
-# Ej. 12
+# Ej. 12-17
 
 
 print("\nLongitud de palabras")
@@ -76,23 +81,23 @@ python_len = len("python")
 dragon_len = len("dragon")
 print(f"Longitud 'python': {python_len}")
 print(f"Longitud 'dragon': {dragon_len}")
-print(f"Comparación falsa: ¿Son diferentes? {python_len != dragon_len}")  # Falsa porque en realidad son iguales
+print(f"Comparación falsa: ¿Las variales son diferentes? {python_len != dragon_len}")  # Es falso, ya que son iguales, y el operador invierte el resultado (Verdadero -> Falso)
 
 print("\nVerificar 'on' en palabras")
 print("¿'on' está en 'python' y 'dragon'?", "on" in "python" and "on" in "dragon")
 
-print("\nDetección de jerga")
+print("\n[DETECCIÓN DE PALABRA]")
 oracion = "Espero que este curso no esté lleno de jerga."
-print("¿La oración contiene jerga?", "jerga" in oracion)
+print("¿La oración contiene la palabra 'jerga'?", "jerga" in oracion)
 
-print("\nConversión de longitud")
+print("\n[ONVERSIÓN DE LONGITUD]")
 longitud = len("Python")
 print(f"Longitud como float: {float(longitud)}")
 print(f"Longitud como string: '{str(longitud)}'")
 11-16
-print("Verificar número par ")
+print("Verificar un número par ")
 numero = 4
-print(f"¿{numero} es par? {numero % 2 == 0}")
+print(f"¿{numero} es un par? {numero % 2 == 0}")
 
 
 # Ej. 18
@@ -129,6 +134,7 @@ print("\nCalculadora de tiempo de vida ")
 años = int(input("\nIngrese años vividos: "))
 segundos = años * 365 * 24 * 60 * 60
 print(f"Segundos vividos: {segundos:,}")
+input("\nHaga enter para seguir")
 
 
 # Ej. 23
