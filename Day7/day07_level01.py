@@ -1,0 +1,31 @@
+
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+A = {19, 22, 24, 20, 25, 26}
+B = {19, 22, 20, 25, 26, 24, 28, 27}
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+
+### Exercises: Level 1
+
+# Ej. 1
+
+print(len(it_companies))
+
+# Ej. 2
+it_companies.add('Twitter')
+
+# Ej. 3
+
+it_companies.update(['AMD', 'Nvidia', 'Huawei', 'Samsung'])
+
+#Ej. 4
+
+it_companies.remove('Oracle')
+
+# Ej. 5
+
+it_companies.remove('Huawei')
+it_companies.add('Qualcomm')
+it_companies.remove('Qualcomm')
+it_companies.discard('AMD')
+
+print(it_companies)
