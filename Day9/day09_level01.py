@@ -9,7 +9,7 @@ else:
 # Ej. 2
 
 print('Mi edad es de ', yearsold)
-yourage = int(input("Ingresa tu edad: "))
+yourage = int(input("Input your age: "))
 print('Quien es mayor')
 if yearsold == yourage:
     print('Somos de la misma edad'), ('Los dos tenemos: ', yearsold, 'años')
@@ -20,8 +20,8 @@ else:
 
 # Ej. 3
 
-a = int(input('Ingresa un numero: '))
-b = int(input('Ingresa otro numero: '))
+a = int(input('Input a number: '))
+b = int(input('Input another number: '))
 print('Que numero es mayor')
 if a == b:
     print('Ambos numeros son iguales'),('Los dos son de un valor de', a)

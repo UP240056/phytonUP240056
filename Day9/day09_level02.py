@@ -12,12 +12,14 @@ elif calAlumno < 60 and calAlumno >= 50:
 elif calAlumno < 50:
     print('Tu calificacion es F suerte para la proxima vez')
 else:
-    print('Error tu calificacion no es valida') 
+    print('Error tu calificacion no es valida')
+
 Autumn = {'September', 'Septiembre', 'October', 'Octubre', 'November', 'Noviembre'}
 Winter = {'Dicember', 'Diciembre', 'January', 'Enero', 'February', 'Febrero'}
 Spring = {'March', 'Marzo', 'April', 'Abril', 'May', 'Mayo'}
 Summer = {'June', 'Junio', 'July', 'Julio', 'Agust', 'Agosto'}
 month = input('Ingresa un mes para decirte la estacion del año: ')
+
 if month in Autumn:
     print('La estacion del año es Otoño')
 elif month in Winter:
@@ -27,7 +29,7 @@ elif month in Spring:
 elif month in Summer:
     print('La estacion del año es Verano')
 else:
-    print('Error: el mes que ingreso no es valido por favor ingrese uno empezando con mayuscula y lo demas en minusculas')
+    print('Error: el mes que ingresó no es válido')
 
 # Ej. 2
 
